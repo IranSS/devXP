@@ -14,7 +14,7 @@ Bem-vindo ao **DevXP**, um projeto desenvolvido durante a imersão **Alura + Goo
 
   
 
-![Logo devXP](assets/logo.png)
+![Logo devXP](./assets/images/github-logo.png)
 
   
 

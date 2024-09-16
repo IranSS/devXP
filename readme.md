@@ -82,7 +82,7 @@ devXP/
 ### Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/devXP.git
+git clone https://github.com/IranSS/devXP.git
 ````
   
 

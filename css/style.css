@@ -3,7 +3,7 @@ body{
     background-color: rgb(1, 20, 63);
     background-size: cover;
     background-repeat: no-repeat;
-    font: 12pt;
+    font-size: 1rem;
     overflow-x: hidden;
     align-items: center;
     margin: 0;
@@ -15,15 +15,14 @@ body{
 }
 h1{
     font-family: 'Roboto', sans-serif;
-    font: 60pt;
+    font-size: 2rem;
     text-align: center;
-    margin-top: 120px;
+    margin-top: 7.10rem;
     color: #ff0062;
     text-shadow: 0 1px 2px #000000;
 }
 a{
     color: #00a2ff;
-    
 }
 section{
     display: flex;
@@ -32,36 +31,35 @@ section{
     margin-bottom: 3rem;
 }
 section input{
-    height: 25px;
-    width: 300px;
+    height: 1.5rem;
+    width: 18.75rem;
     margin-bottom: 1rem;
     border: none;
-    border-radius: 15px;
+    border-radius: 1rem;
     padding: 0.5rem;
     align-items: center;
 }
 section button{
     background-color: rgb(44, 68, 104);
     color: rgb(255, 255, 255);
-    height: 34px;
-    width: 100px;
-    border-radius: 15px;
+    height: 2.125rem;
+    width: 6.25rem;
+    border-radius: 1rem;
     border: none;
 }
 .resultados{
-    /*background-color: rgba(0, 0, 0, 0.322);*/
-    width: 50rem;
+    width: 40rem;
     height: 50vh;
     overflow-y: auto;
     margin-top: 0.3rem;
     padding: 1rem;
-    border-radius: 0.6rem;
+    border-radius: 1rem;
 }
 .itens-resultados{
     font-family: Arial, sans-serif;
     letter-spacing: 0.2px;
     float: left;
-    width: 45rem;
+    width: 35rem;
     background-color: #222044;
     color: #ffffff;
     border-radius: 0.6rem; 
@@ -84,7 +82,7 @@ section button{
     font-family: 'Roboto', sans-serif;
     text-shadow: 0 1px 4px black;
     color: #ff0062;
-    font-size: 30px;
+    font-size: 1.875rem;
     text-align: center;
 }
 #myVideo {
@@ -97,7 +95,7 @@ section button{
     z-index: -1;
 }
 #linkedin-logo{
-    margin-left: 5px;
+    margin-left: 0.5rem;
 }
 footer{
     background-color: rgb(18, 23, 44);
@@ -106,7 +104,7 @@ footer{
     text-align: center;
     width: 100%;
     bottom: 0;
-    position: absolute;
+    position: relative;
 }
 @media (max-width: 768px) {
     body{
@@ -137,58 +135,67 @@ footer{
         position: fixed;
     }
     footer{
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem;
     }
 }
+/* Media Query para telas menores que 480px */
 @media (max-width: 480px) {
-    h1{
-        font-size: 25pt;
-        margin-top: 56px;
+    h1 {
+        font-size: 1.5625rem;
+        margin-top: 3.5rem;
     }
-    section input{
-        width: 55vw;
+
+    section input {
+        width: 45vw;
     }
-    .resultados{
+
+    .resultados {
         overflow-x: hidden;
         height: 90vw;
     }
-    #item-invalido{
-        font-size: 15pt;
+
+    #item-invalido {
+        font-size: 1rem;
     }
 }
+
+/* Media Query para telas entre 481px e 768px */
 @media (min-width: 481px) and (max-width: 768px) {
-    h1{
-        font-size: 20pt;
-        margin-top: 20px;
+    h1 {
+        font-size: 2rem;
+        margin-top: 8rem;
     }
-    .resultados{
-        height: 50vw;
+    section input {
+        width: 45vw;
     }
-    section input{
-        width: 55vw;
+    .resultados {
+        overflow-x: hidden;
+        height: 80vw;
     }
-    #item-invalido{
-        font-size: 18pt;
+    #item-invalido {
+        font-size: 1.125rem;
     }
 }
+/* Media Query para telas entre 769px e 1024px */
 @media (min-width: 769px) and (max-width: 1024px) {
-    body{
+    body {
         width: 100%;
         height: 100%;
         overflow-x: hidden;
     }
-    .resultados{
-        width: 80%;
+    .resultados {
+        width: 70%;
     }
-    .itens-resultados{
-        width: 80%;
+    .itens-resultados {
+        width: 90%;
     }
 }
+/* Media Query para telas entre 1025px e 1200px */
 @media (min-width: 1025px) and (max-width: 1200px) {
-    h1{
-        margin-top: 20px;
+    h1 {
+        margin-top: 1.25rem;
     }
-    .resultados{
-        margin-top: 20px;
+    .resultados {
+        margin-top: 1.25rem;
     }
 }

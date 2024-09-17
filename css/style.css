@@ -158,9 +158,8 @@ footer{
         font-size: 1rem;
     }
 }
-
 /* Media Query para telas entre 481px e 768px */
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 548px) {
     h1 {
         font-size: 2rem;
         margin-top: 8rem;
@@ -174,6 +173,99 @@ footer{
     }
     #item-invalido {
         font-size: 1.125rem;
+    }
+}
+@media (min-width: 549px) and (max-width: 571px) {
+    h1{
+        font-size: 1.6rem;
+        margin-top: 4rem;
+    }
+    .resultados{
+        height: 90vw;
+        width: 26rem;
+    }
+    #item-invalido{
+        font-size: 1.5rem;
+    }
+}
+@media (min-width: 572px) and (max-width: 616px) {
+    h1{
+        font-size: 1.6rem;
+        margin-top: 4rem;
+    }
+    section input{
+        width: 15rem;
+    }
+    .resultados{
+        height: 85vw;
+        width: 25rem;
+    }
+    #item-invalido{
+        font-size: 1.2rem;
+    }
+}
+@media (min-width: 615px) and (max-width: 647px) {
+    h1{
+        font-size: 1.5rem;
+        margin-top: 2.2rem;
+    }
+    section input{
+        width: 15rem;
+    }
+    .resultados{
+        height: 85vw;
+        width: 25rem;
+    }
+    #item-invalido{
+        font-size: 1.2rem;
+    }
+}
+@media (min-width: 648px) and (max-width: 695px) {
+    h1{
+        font-size: 1.5rem;
+        margin-top: 2.2rem;
+    }
+    section input{
+        width: 15rem;
+    }
+    .resultados{
+        height: 84vw;
+        width: 28rem;
+        margin-bottom: 1rem;
+    }
+    #item-invalido{
+        font-size: 1.2rem;
+    }
+}
+@media (min-width: 696px) and (max-width: 728px) {
+    h1{
+        font-size: 1.5rem;
+        margin-top: 2.2rem;
+    }
+    section input{
+        width: 15rem;
+    }
+    .resultados{
+        height: 80vw;
+        margin-bottom: 1rem;
+    }
+    #item-invalido{
+        font-size: 1.5rem;
+    }
+}
+@media (min-width: 729px) and (max-width: 768px) {
+    h1{
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+    section input{
+        width: 18rem;
+    }
+    .resultados{
+        height: 29rem;
+    }
+    #item-invalido{
+        font-size: 2.5rem;
     }
 }
 /* Media Query para telas entre 769px e 1024px */

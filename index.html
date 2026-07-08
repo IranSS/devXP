@@ -10,28 +10,69 @@
 </head>
 
 <body>
-    <h1>Quer aprender o que dev?</h1>
-    <section>
-        <input type="text" placeholder="Qual conhecimento você procura?" id="campo-pesquisa">
-        <button onclick="buscar()" onmouseenter="mouseEnter()" onmouseout="mouseExit()"
-            id="buttonBuscar">Buscar</button>
-    </section>
-    <section class="resultados" id="resultados-pesquisa">
-    </section>
-    <video autoplay muted loop id="myVideo" autoplay muted loop poster="./assets/images/fallback-image.png">
-        <source src="./assets/videos/Background-Animated-720-Update.mp4" type="video/mp4">
-    </video>
-    <footer>
-        <div class="container">
-            <p>Todos os créditos para - Iranildo Sousa</p>
-            <a href="https://www.linkedin.com/in/iranildosousa/" target="_blank">
-                <img src="./assets/images/linkedin-logo.png" alt="LinkedIn" width="20" height="20"
-                id="linkedin-logo">
-            </a>
-            <a href="https://github.com/IranSS" target="_blank">
-                <img src="./assets/images/github-logo.png" alt="LinkedIn" width="20" height="20"
-                id="linkedin-logo">
-            </a>
+    <main>
+        <header class="hero">
+            <div>
+                <p class="eyebrow">Hub de recursos para devs</p>
+                <h1>Encontre cursos, tutoriais e materiais para evoluir com mais facilidade.</h1>
+                <p class="hero-copy">Um espaço pensado para reunir conteúdos de diferentes áreas, níveis e formatos, ajudando você a escolher o próximo passo com mais clareza.</p>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-card">
+                    <strong>+50 materiais</strong>
+                    <span>cursos, documentação e guias prontos para explorar</span>
+                </div>
+                <div class="stat-card">
+                    <strong>Foco em prática</strong>
+                    <span>conteúdos organizados por tema, nível e tipo de acesso</span>
+                </div>
+            </div>
+        </header>
+
+        <section class="busca">
+            <div class="search-shell">
+                <input type="text" placeholder="Qual conhecimento você procura?" id="campo-pesquisa">
+                <button type="button" id="buttonBuscar">Buscar</button>
+            </div>
+            <p class="helper-text">Pesquise por tecnologia, nível, tipo de acesso ou tema.</p>
+        </section>
+
+        <section class="resultados" id="resultados-pesquisa">
+            <div class="empty-state">
+                <h2>Seu hub de aprendizado começa aqui</h2>
+                <p>Digite algo como React, Python, Docker, gratuito, intermediário ou IA para explorar conteúdos relevantes.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>Iranildo</h3>
+                <p>Desenvolvedor de software focado em criar soluções escaláveis e inovadoras.</p>
+            </div>
+
+            <div class="footer-social">
+                <h4>Conecte-se</h4>
+                <div class="social-icons">
+                    <a href="https://github.com/IranSS" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <img src="./assets/images/github-logo.png" alt="GitHub" width="20" height="20">
+                    </a>
+                    <a href="https://www.linkedin.com/in/iranildosousa/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <img src="./assets/images/linkedin-logo.png" alt="LinkedIn" width="20" height="20">
+                    </a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=iranildosousa.dev@gmail.com&su=Contato&body=Olá, gostaria de falar com você!" target="_blank" rel="noopener noreferrer" aria-label="Email">
+                        <span>✉</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Iranildo. Todos os direitos reservados.</p>
+            <button type="button" class="back-top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+                Voltar ao Topo ↑
+            </button>
         </div>
     </footer>
     <script src="./js/dados.js"></script>
